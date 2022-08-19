@@ -1,0 +1,16 @@
+{
+    "name": "Covid-19 Stats UK",
+    "version": "1.0.0",
+    "description": "latest covid data of UK",
+    "manifest_version": 3,
+    "author": "Umar Arshid",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    },
+    "options_page":"options.html"
+}
